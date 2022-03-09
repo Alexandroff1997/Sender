@@ -1,0 +1,17 @@
+{
+  "name": "api2",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.7",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.4",
+    "nodemailer": "^6.7.2",
+    "dotenv": "^16.0.0",
+    "redis": "^4.0.4"
+  }
+}

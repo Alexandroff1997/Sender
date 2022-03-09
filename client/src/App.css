@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  background: #faf0e6;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 700px;
+  min-height: 600px;
+  background: #161a2b;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+
+.app-container {
+  padding: 20px;
+}
+
+.app-button {
+  margin-top: 30px;
+  padding: 16px;
+  border: none;
+  width: 70%;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+
+header {
+  margin: 32px 0;
+  color: #fff;
+  font-size: 24px;
+}

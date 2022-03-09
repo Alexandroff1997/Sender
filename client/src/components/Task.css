@@ -1,0 +1,26 @@
+.task-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-text-active {
+  color: green;
+}
+
+.task-text-inactive {
+  color: red;
+}
+
+.task-header {
+  color: orange;
+  text-align: left;
+}
+
+.task-description {
+  text-align: left;
+  color: white
+}
+
+.description-list {
+  padding-left: 20px;
+}
