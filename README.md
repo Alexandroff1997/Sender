@@ -20,6 +20,7 @@ SMTP_PASS={password}
 
 Then execute in terminal
 
+`npm install`
 `node ./api2/app.js`
 
 ### Launch api1 (communication with the front)
@@ -32,8 +33,9 @@ MONGO_URI=mongodb+srv://admin:admin@cluster0.j0qhn.mongodb.net/sender
 
 Then execute in terminal
 
+`npm install`
 `node ./api1/app.js`
 
 ### Frontend launch
 
-Go to folder `client` and execute in terminal `npm run start`
+Go to folder `client` and execute in terminal `npm install` `npm run start`
